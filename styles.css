@@ -74,7 +74,7 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-image: url(images/img-locations-background.jpg);
   background-repeat: no-repeat;
   height: 600px;
@@ -84,9 +84,10 @@ a{
 }
 .box{
   display: flex;
-  
+  }
+.loctext{
+  top: 0px;
 }
-
 .downtown, .eastbayside, .oakdale{
   display: inline-block;
   width: 300px;
